@@ -1,0 +1,13 @@
+{
+	"file": "https://github.com/drivak/mcao/blob/master/vcg_mcao.csv",
+	"name": "MCAO",
+	"header": 0,
+	"separator": ";",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Gene" },
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 8 }
+	]
+}
