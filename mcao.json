@@ -1,5 +1,5 @@
 {
-	"file": "https://github.com/drivak/mcao/blob/master/vcg_mcao.csv",
+	"file": "https://github.com/drivak/mcao/raw/master/vcg_mcao.csv",
 	"name": "MCAO",
 	"header": 0,
 	"separator": ";",
