@@ -1,6 +1,6 @@
 {
-	"file": "https://github.com/drivak/mcao/raw/master/vcg_mcao.csv",
-	"name": "MCAO",
+	"file": "https://github.com/drivak/mcao/raw/master/git_test.csv",
+	"name": "GIT_Test_KAVI",
 	"header": 0,
 	"separator": ";",
 	"skip": 0,
@@ -8,5 +8,5 @@
 		{ "type": "id", "index": 0, "name": "Name" },
 	
 	"sets": 
-		{ "format": "binary", "start": 1, "end": 8 }
+		{ "format": "binary", "start": 1, "end": 3 }
 }
