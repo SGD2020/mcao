@@ -9,5 +9,4 @@
 	],
 	"sets": [
 		{ "format": "binary", "start": 1, "end": 8 }
-	]
 }
