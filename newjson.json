@@ -11,7 +11,7 @@
 		{ "type": "integer", "index": 11, "name": "EC Reads" },
 		{ "type": "float", "index": 12, "name": "EC Log2Fc" },
 		{ "type": "integer", "index": 13, "name": "MG Reads" },
-		{ "type": "float", "index": 14, "name": "MG Log2Fc" },
+		{ "type": "realnumber", "index": 14, "name": "MG Log2Fc" },
 		{ "type": "integer", "index": 15, "name": "PC Reads" },
 		{ "type": "float", "index": 16, "name": "PC Log2Fc" }
 	],
