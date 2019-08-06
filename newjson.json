@@ -1,11 +1,21 @@
 {
-	"file": "https://raw.githubusercontent.com/drivak/mcao/master/8new.csv",
-	"name": "Test_KAVI",
+	"file": "https://raw.githubusercontent.com/drivak/mcao/master/8csvnew.csv",
+	"name": "MCAO_KAVI",
 	"header": 0,
 	"separator": ";",
 	"skip": 0,
-	"meta":
+	"meta":[	
 		{ "type": "id", "index": 0, "name": "Name" },
-	"sets": 
+		{ "type": "integer", "index": 9, "name": "AC Reads" },
+		{ "type": "float", "index": 10, "name": "AC Log2Fc" },
+		{ "type": "integer", "index": 11, "name": "EC Reads" },
+		{ "type": "float", "index": 12, "name": "EC Log2Fc" },
+		{ "type": "integer", "index": 13, "name": "MG Reads" },
+		{ "type": "float", "index": 14, "name": "MG Log2Fc" },
+		{ "type": "integer", "index": 15, "name": "PC Reads" },
+		{ "type": "float", "index": 16, "name": "PC Log2Fc" }
+	],
+	"sets": [
 		{ "format": "binary", "start": 1, "end": 8 }
+	]
 }
