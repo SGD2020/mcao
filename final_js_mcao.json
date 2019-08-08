@@ -5,7 +5,7 @@
 	"separator": ";",
 	"skip": 0,
 	"meta":[	
-		{ "type": "id", "index": 0, "name": "Name" },
+		{ "type": "id", "index": 0, "name": "Gene" },
 		{ "type": "integer", "index": 9, "name": "AC Reads" },
 		{ "type": "realnumber", "index": 10, "name": "AC Log2Fc" },
 		{ "type": "integer", "index": 11, "name": "EC Reads" },
