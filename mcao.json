@@ -6,16 +6,16 @@
 	"skip": 0,
 	"meta":[	
 		{ "type": "id", "index": 0, "name": "Gene" },
-		{ "type": "integer", "index": 9, "name": "AC Reads" },
-		{ "type": "realnumber", "index": 10, "name": "AC Log2Fc" },
-		{ "type": "integer", "index": 11, "name": "EC Reads" },
-		{ "type": "realnumber", "index": 12, "name": "EC Log2Fc" },
-		{ "type": "integer", "index": 13, "name": "MG Reads" },
-		{ "type": "realnumber", "index": 14, "name": "MG Log2Fc" },
-		{ "type": "integer", "index": 15, "name": "PC Reads" },
-		{ "type": "realnumber", "index": 16, "name": "PC Log2Fc" }
+		{ "type": "integer", "index": 1, "name": "AC Reads" },
+		{ "type": "realnumber", "index": 2, "name": "AC Log2Fc" },
+		{ "type": "integer", "index": 3, "name": "EC Reads" },
+		{ "type": "realnumber", "index": 4, "name": "EC Log2Fc" },
+		{ "type": "integer", "index": 5, "name": "MG Reads" },
+		{ "type": "realnumber", "index": 6, "name": "MG Log2Fc" },
+		{ "type": "integer", "index": 7, "name": "PC Reads" },
+		{ "type": "realnumber", "index": 8, "name": "PC Log2Fc" }
 	],
 	"sets": [
-		{ "format": "binary", "start": 1, "end": 8 }
+		{ "format": "binary", "start": 9, "end": 16 }
 	]
 }
