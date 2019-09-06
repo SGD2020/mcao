@@ -1,21 +1,25 @@
 {
-	"file": "https://raw.githubusercontent.com/drivak/mcao/master/8csvnew.csv",
+	"file": "https://raw.githubusercontent.com/drivak/mcao/master/12csvnew.csv",
 	"name": "MCAO_KAVI",
 	"header": 0,
 	"separator": ";",
 	"skip": 0,
 	"meta":[	
 		{ "type": "id", "index": 0, "name": "Gene" },
-		{ "type": "integer", "index": 1, "name": "AC Reads" },
-		{ "type": "realnumber", "index": 2, "name": "AC Log2Fc" },
-		{ "type": "integer", "index": 3, "name": "EC Reads" },
-		{ "type": "realnumber", "index": 4, "name": "EC Log2Fc" },
-		{ "type": "integer", "index": 5, "name": "MG Reads" },
-		{ "type": "realnumber", "index": 6, "name": "MG Log2Fc" },
-		{ "type": "integer", "index": 7, "name": "PC Reads" },
-		{ "type": "realnumber", "index": 8, "name": "PC Log2Fc" }
+		{ "type": "integer", "index": 1, "name": "Log2Fc sEC/cEC" },
+		{ "type": "realnumber", "index": 2, "name": "Mean cEC Reads" },
+		{ "type": "integer", "index": 3, "name": "Mean sEC Reads" },
+		{ "type": "realnumber", "index": 4, "name": "Log2Fc sPC/cPC" },
+		{ "type": "integer", "index": 5, "name": "Mean cPC Reads" },
+		{ "type": "realnumber", "index": 6, "name": "Mean sPC Reads" },
+		{ "type": "realnumber", "index": 4, "name": "Log2Fc sAC/cAC" },
+		{ "type": "integer", "index": 5, "name": "Mean cAC Reads" },
+		{ "type": "realnumber", "index": 6, "name": "Mean sAC Reads" },
+		{ "type": "realnumber", "index": 4, "name": "Log2Fc sMG/cMG" },
+		{ "type": "integer", "index": 5, "name": "Mean cMG Reads" },
+		{ "type": "realnumber", "index": 6, "name": "Mean sMG Reads" }
 	],
 	"sets": [
-		{ "format": "binary", "start": 9, "end": 16 }
+		{ "format": "binary", "start": 9, "end": 20 }
 	]
 }
