@@ -7,17 +7,17 @@
 	"meta":[	
 		{ "type": "id", "index": 0, "name": "Gene" },
 		{ "type": "realnumber", "index": 1, "name": "Log2Fc sEC/cEC" },
-		{ "type": "integer", "index": 2, "name": "Mean cEC Reads" },
-		{ "type": "integer", "index": 3, "name": "Mean sEC Reads" },
+		{ "type": "integer", "index": 2, "name": "Mean cEC" },
+		{ "type": "integer", "index": 3, "name": "Mean sEC" },
 		{ "type": "realnumber", "index": 4, "name": "Log2Fc sPC/cPC" },
-		{ "type": "integer", "index": 5, "name": "Mean cPC Reads" },
-		{ "type": "integer", "index": 6, "name": "Mean sPC Reads" },
+		{ "type": "integer", "index": 5, "name": "Mean cPC" },
+		{ "type": "integer", "index": 6, "name": "Mean sPC" },
 		{ "type": "realnumber", "index": 7, "name": "Log2Fc sAC/cAC" },
-		{ "type": "integer", "index": 8, "name": "Mean cAC Reads" },
-		{ "type": "integer", "index": 9, "name": "Mean sAC Reads" },
+		{ "type": "integer", "index": 8, "name": "Mean cAC" },
+		{ "type": "integer", "index": 9, "name": "Mean sAC" },
 		{ "type": "realnumber", "index": 10, "name": "Log2Fc sMG/cMG" },
-		{ "type": "integer", "index": 11, "name": "Mean cMG Reads" },
-		{ "type": "integer", "index": 12, "name": "Mean sMG Reads" }
+		{ "type": "integer", "index": 11, "name": "Mean cMG" },
+		{ "type": "integer", "index": 12, "name": "Mean sMG" }
 	],
 	"sets": [
 		{ "format": "binary", "start": 13, "end": 24 }
